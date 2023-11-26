@@ -1,0 +1,208 @@
+
+{
+    "cloudId https://admin.atlassian.com/gateway/api/billing-ux/cloud/52cf8bc5-2dd4-4219-9cf8-06d6ac1c8bed/billing/v2/site-entitlements": "52cf8bc5-2dd4-4219-9cf8-06d6ac1c8bed",
+    "entitlements": [
+        {
+            "ccpEntitlementId": "279caa99-410e-31e5-8d29-16d81eea5699",
+            "productName": "Atlas",
+            "productKey": "townsquare",
+            "edition": "Free",
+            "chargeQuantity": {
+                "quantity": 11,
+                "chargeElement": "unit"
+            },
+            "currencyCode": "USD",
+            "priceEstimate": 0,
+            "billingSystem": "CCP",
+            "billingAccountId": "275505d4-c64d-4795-b7d3-1a18a91dfb58",
+            "managedByPartner": false,
+            "isAdmin": true,
+            "slug": "E-3ZA-AMP-Q95-YX2",
+            "status": "ACTIVE",
+            "isTrial": false,
+            "isFree": true
+        },
+        {
+            "ccpEntitlementId": "3ceb45ed-e4d1-3f5f-8c0c-bf4243f28ec6",
+            "productName": "Custom Charts for Jira Reports and Time in Status Cloud",
+            "productKey": "com.oldstreetsolutions.atlassian.jira.custom-charts.ondemand",
+            "renewalFrequency": "MONTHLY",
+            "edition": "Standard",
+            "chargeQuantity": {
+                "quantity": 100,
+                "quantityForMonth": 100,
+                "chargeElement": "user"
+            },
+            "currencyCode": "USD",
+            "priceEstimate": 250.00,
+            "billingSystem": "CCP",
+            "billingAccountId": "275505d4-c64d-4795-b7d3-1a18a91dfb58",
+            "managedByPartner": false,
+            "isAdmin": true,
+            "slug": "E-3ZE-4D5-3MP-NW9",
+            "status": "ACTIVE",
+            "isTrial": false,
+            "isFree": false,
+            "nextBillDate": "2023-12-12T18:17:30Z"
+        },
+        {
+            "ccpEntitlementId": "51273778-60fc-4a0e-98ac-ba94e9e779ab",
+            "productName": "Jira Service Management",
+            "productKey": "jira-servicedesk.ondemand",
+            "renewalFrequency": "MONTHLY",
+            "edition": "Standard",
+            "chargeQuantity": {
+                "quantity": 6,
+                "quantityForMonth": 6,
+                "chargeElement": "agent"
+            },
+            "currencyCode": "USD",
+            "priceEstimate": 132.30,
+            "billingSystem": "CCP",
+            "billingAccountId": "275505d4-c64d-4795-b7d3-1a18a91dfb58",
+            "managedByPartner": false,
+            "isAdmin": true,
+            "slug": "E-3UE-GB3-JPR-4QM",
+            "status": "ACTIVE",
+            "isTrial": false,
+            "isFree": false,
+            "nextBillDate": "2023-12-12T18:17:30Z"
+        },
+        {
+            "ccpEntitlementId": "54155ddb-6e99-3e23-b63e-c0801647ffa4",
+            "productName": "Jira Product Discovery",
+            "productKey": "jira-product-discovery",
+            "edition": "Free",
+            "chargeQuantity": {
+                "quantity": 6,
+                "chargeElement": "unit"
+            },
+            "currencyCode": "USD",
+            "priceEstimate": 0,
+            "billingSystem": "CCP",
+            "billingAccountId": "275505d4-c64d-4795-b7d3-1a18a91dfb58",
+            "managedByPartner": false,
+            "isAdmin": true,
+            "slug": "E-3ZB-3BZ-X27-SGS",
+            "status": "ACTIVE",
+            "isTrial": false,
+            "isFree": true
+        },
+        {
+            "ccpEntitlementId": "5aff5ef1-91ce-398f-a7b3-790271b50f90",
+            "productName": "Agile Velocity Chart Gadget Cloud",
+            "productKey": "net.brokenbuild.velocity-chart.ondemand",
+            "renewalFrequency": "MONTHLY",
+            "edition": "Standard",
+            "chargeQuantity": {
+                "quantity": 100,
+                "quantityForMonth": 100,
+                "chargeElement": "user"
+            },
+            "currencyCode": "USD",
+            "priceEstimate": 67.00,
+            "billingSystem": "CCP",
+            "billingAccountId": "275505d4-c64d-4795-b7d3-1a18a91dfb58",
+            "managedByPartner": false,
+            "isAdmin": true,
+            "slug": "E-3ZE-7C7-94G-XU5",
+            "status": "ACTIVE",
+            "isTrial": false,
+            "isFree": false,
+            "nextBillDate": "2023-12-12T18:17:30Z"
+        },
+        {
+            "ccpEntitlementId": "5f28678a-646a-4b70-be1b-8e2af492d22c",
+            "productName": "Confluence",
+            "productKey": "confluence.ondemand",
+            "renewalFrequency": "MONTHLY",
+            "edition": "Standard",
+            "chargeQuantity": {
+                "quantity": 98,
+                "quantityForMonth": 98,
+                "chargeElement": "user"
+            },
+            "currencyCode": "USD",
+            "priceEstimate": 592.90,
+            "billingSystem": "CCP",
+            "billingAccountId": "275505d4-c64d-4795-b7d3-1a18a91dfb58",
+            "managedByPartner": false,
+            "isAdmin": true,
+            "slug": "E-3W4-9QE-NGK-8ZK",
+            "status": "ACTIVE",
+            "isTrial": false,
+            "isFree": false,
+            "nextBillDate": "2023-12-12T18:17:30Z"
+        },
+        {
+            "ccpEntitlementId": "7c58f3f5-df7c-4fba-b2c4-b24f810fb1e8",
+            "productName": "Jira Software",
+            "productKey": "jira-software.ondemand",
+            "renewalFrequency": "MONTHLY",
+            "edition": "Standard",
+            "chargeQuantity": {
+                "quantity": 100,
+                "quantityForMonth": 100,
+                "chargeElement": "user"
+            },
+            "currencyCode": "USD",
+            "priceEstimate": 815.00,
+            "billingSystem": "CCP",
+            "billingAccountId": "275505d4-c64d-4795-b7d3-1a18a91dfb58",
+            "managedByPartner": false,
+            "isAdmin": true,
+            "slug": "E-3RU-NMY-NPW-7VC",
+            "status": "ACTIVE",
+            "isTrial": false,
+            "isFree": false,
+            "nextBillDate": "2023-12-12T18:17:30Z"
+        },
+        {
+            "ccpEntitlementId": "9079fb53-bdf1-3268-bdda-5d8af8cfe336",
+            "productName": "Tricentis Test Management for Jira",
+            "productKey": "qtest-for-jira-connect-module.ondemand",
+            "renewalFrequency": "MONTHLY",
+            "edition": "Standard",
+            "chargeQuantity": {
+                "quantity": 100,
+                "quantityForMonth": 100,
+                "chargeElement": "user"
+            },
+            "currencyCode": "USD",
+            "priceEstimate": 138.00,
+            "billingSystem": "CCP",
+            "billingAccountId": "275505d4-c64d-4795-b7d3-1a18a91dfb58",
+            "managedByPartner": false,
+            "isAdmin": true,
+            "slug": "E-3ZE-6VT-F74-3YH",
+            "status": "ACTIVE",
+            "isTrial": false,
+            "isFree": false,
+            "nextBillDate": "2023-12-12T18:17:30Z"
+        },
+        {
+            "ccpEntitlementId": "e3d24084-ef70-4164-b73d-85523c36e9cf",
+            "productName": "draw.io Diagrams & Whiteboards Cloud",
+            "productKey": "com.mxgraph.confluence.plugins.diagramly.ondemand",
+            "renewalFrequency": "MONTHLY",
+            "edition": "Standard",
+            "chargeQuantity": {
+                "quantity": 98,
+                "quantityForMonth": 98,
+                "chargeElement": "user"
+            },
+            "currencyCode": "USD",
+            "priceEstimate": 98.00,
+            "billingSystem": "CCP",
+            "billingAccountId": "275505d4-c64d-4795-b7d3-1a18a91dfb58",
+            "managedByPartner": false,
+            "isAdmin": true,
+            "slug": "E-3XP-6SE-62U-N84",
+            "status": "ACTIVE",
+            "isTrial": false,
+            "isFree": false,
+            "nextBillDate": "2023-12-12T18:17:30Z"
+        }
+    ],
+    "offlineEntitlements": {}
+}

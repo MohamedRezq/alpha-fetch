@@ -1,0 +1,709 @@
+{
+  "info": {
+    "_postman_id": "b8202089-ae9d-4189-a1a7-c55db97ff1b8",
+    "name": "Express Sequelize Controllers",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Categories",
+      "item": [
+        {
+          "name": "Get All Categories",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{your_access_token}}"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:3000/categories",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "categories"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Get Category by ID",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{your_access_token}}"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:3000/categories/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "categories",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Create Category",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{your_access_token}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"New Category\",\n  \"slug\": \"new-category\",\n  \"parent_category_id\": 0,\n  \"logo\": \"new-category-logo.png\",\n  \"data\": {\n    \"key\": \"value\"\n  }\n}"
+            },
+            "url": {
+              "raw": "http://localhost:3000/categories",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "categories"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Bulk Create Categories",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{your_access_token}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "[\n  {\n    \"name\": \"Category1\",\n    \"slug\": \"category1\",\n    \"parent_category_id\": 0,\n    \"logo\": \"category1-logo.png\",\n    \"data\": {}\n  },\n  {\n    \"name\": \"Category2\",\n    \"slug\": \"category2\",\n    \"parent_category_id\": 1,\n    \"logo\": \"category2-logo.png\",\n    \"data\": {}\n  }\n]"
+            },
+            "url": {
+              "raw": "http://localhost:3000/categories/admin/multiple",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "categories",
+                "admin",
+                "multiple"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update Category",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{your_access_token}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Updated Category\",\n  \"slug\": \"updated-category\",\n  \"parent_category_id\": 0,\n  \"logo\": \"updated-category-logo.png\",\n  \"data\": {\n    \"updated_key\": \"updated_value\"\n  }\n}"
+            },
+            "url": {
+              "raw": "http://localhost:3000/categories/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "categories",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Delete Category",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{your_access_token}}"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:3000/categories/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "categories",
+                "1"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Applications",
+      "item": [
+        {
+          "name": "Get All Applications",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{your_access_token}}"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:3000/applications",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "applications"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Get Application by ID",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{your_access_token}}"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:3000/applications/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "applications",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Create Application",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{your_access_token}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"New Application\",\n  \"slug\": \"new-application\",\n  \"description\": \"This is a new application\",\n  \"logo\": \"new-application-logo.png\",\n  \"is_integrated\": true,\n  \"category_id\": 1,\n  \"data\": {\n    \"key\": \"value\"\n  }\n}"
+            },
+            "url": {
+              "raw": "http://localhost:3000/applications",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "applications"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Bulk Create Applications",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{your_access_token}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "[\n  {\n    \"name\": \"App1\",\n    \"slug\": \"app1\",\n    \"description\": \"App 1\",\n    \"logo\": \"app1-logo.png\",\n    \"is_integrated\": true,\n    \"category_id\": 1,\n    \"data\": {}\n  },\n  {\n    \"name\": \"App2\",\n    \"slug\": \"app2\",\n    \"description\": \"App 2\",\n    \"logo\": \"app2-logo.png\",\n    \"is_integrated\": false,\n    \"category_id\": 2,\n    \"data\": {}\n  }\n]"
+            },
+            "url": {
+              "raw": "http://localhost:3000/applications/admin/multiple",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "applications",
+                "admin",
+                "multiple"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Update Application",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{your_access_token}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Updated Application\",\n  \"slug\": \"updated-application\",\n  \"description\": \"This application has been updated\",\n  \"logo\": \"updated-application-logo.png\",\n  \"is_integrated\": false,\n  \"category_id\": 2,\n  \"data\": {\n    \"updated_key\": \"updated_value\"\n  }\n}"
+            },
+            "url": {
+              "raw": "http://localhost:3000/applications/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "applications",
+                "1"
+              ]
+            }
+          }
+        },
+        {
+          "name": "Delete Application",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{your_access_token}}"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:3000/applications/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "applications",
+                "1"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "OrganizationApplications",
+      "item": [
+        {
+          "name": "Get All OrganizationApplications",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer YOUR_ACCESS_TOKEN"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:3000/organizationApplications",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "organizationApplications"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Get OrganizationApplication by ID",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer YOUR_ACCESS_TOKEN"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:3000/organizationApplications/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "organizationApplications",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create OrganizationApplication",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer YOUR_ACCESS_TOKEN"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Sample OrganizationApplication\",\n  \"data\": { \"key\": \"value\" }\n}"
+            },
+            "url": {
+              "raw": "http://localhost:3000/organizationApplications",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "organizationApplications"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Bulk Create OrganizationApplications",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer YOUR_ACCESS_TOKEN"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "[\n  { \"name\": \"OrgApp1\", \"data\": {} },\n  { \"name\": \"OrgApp2\", \"data\": {} }\n]"
+            },
+            "url": {
+              "raw": "http://localhost:3000/organizationApplications/admin/multiple",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "organizationApplications",
+                "admin",
+                "multiple"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Update OrganizationApplication",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer YOUR_ACCESS_TOKEN"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Updated OrganizationApplication\",\n  \"data\": { \"updated_key\": \"updated_value\" }\n}"
+            },
+            "url": {
+              "raw": "http://localhost:3000/organizationApplications/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "organizationApplications",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Delete OrganizationApplication",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer YOUR_ACCESS_TOKEN"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:3000/organizationApplications/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "organizationApplications",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "SyncLogs",
+      "item": [
+        {
+          "name": "Get All SyncLogs",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer YOUR_ACCESS_TOKEN"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:3000/sync-logs",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "sync-logs"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Get SyncLog by ID",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer YOUR_ACCESS_TOKEN"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:3000/sync-logs/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "sync-logs",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Create SyncLog",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer YOUR_ACCESS_TOKEN"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"organization_application_id\": 1,\n  \"source\": \"extension\",\n  \"type\": \"invoices\",\n  \"data\": { \"key\": \"value\" }\n}"
+            },
+            "url": {
+              "raw": "http://localhost:3000/sync-logs",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "sync-logs"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Bulk Create SyncLogs",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer YOUR_ACCESS_TOKEN"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "[\n  { \"organization_application_id\": 1, \"source\": \"extension\", \"type\": \"invoices\", \"data\": {} },\n  { \"organization_application_id\": 2, \"source\": \"official_api\", \"type\": \"billing\", \"data\": {} }\n]"
+            },
+            "url": {
+              "raw": "http://localhost:3000/sync-logs/admin/multiple",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "sync-logs",
+                "admin",
+                "multiple"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Update SyncLog",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer YOUR_ACCESS_TOKEN"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"organization_application_id\": 1,\n  \"source\": \"extension\",\n  \"type\": \"invoices\",\n  \"data\": { \"updated_key\": \"updated_value\" }\n}"
+            },
+            "url": {
+              "raw": "http://localhost:3000/sync-logs/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "sync-logs",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Delete SyncLog",
+          "request": {
+            "method": "DELETE",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer YOUR_ACCESS_TOKEN"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:3000/sync-logs/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "sync-logs",
+                "1"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}

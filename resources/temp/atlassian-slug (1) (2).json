@@ -1,0 +1,50 @@
+[
+  { "name": "Trello", "slug": "trello" },
+  { "name": "Jira Software", "slug": "jira-software" },
+  { "name": "Confluence", "slug": "confluence" },
+  { "name": "Bitbucket", "slug": "bitbucket" },
+  { "name": "Jira Service Management", "slug": "jira-service-management" },
+  { "name": "SourceTree", "slug": "sourcetree" },
+  { "name": "Chartio", "slug": "chartio" },
+  { "name": "Jira Core", "slug": "jira-core" },
+  { "name": "Bamboo", "slug": "bamboo" },
+  { "name": "Trello Bot", "slug": "trello-bot" },
+  { "name": "Opsgenie", "slug": "opsgenie" },
+  {
+    "name": "Atlassian Enterprise Support",
+    "slug": "atlassian-enterprise-support"
+  },
+  { "name": "Jira Cloud Bot", "slug": "jira-cloud-bot" },
+  { "name": "Statuspage", "slug": "statuspage" },
+  { "name": "Trello for G Suite", "slug": "atlassian-trello-for-g-suite" },
+  { "name": "Crucible", "slug": "crucible" },
+  { "name": "Atlassian TAM", "slug": "atlassian-tam" },
+  { "name": "Atlassian Data Center", "slug": "atlassian-data-center" },
+  { "name": "FishEye", "slug": "fisheye" },
+  { "name": "Crowd", "slug": "crowd" },
+  {
+    "name": "Jira Align (formerly AgileCraft)",
+    "slug": "jira-align-formerly-agilecraft"
+  },
+  {
+    "name": "Google Drive for Confluence",
+    "slug": "google-drive-for-confluence"
+  },
+  { "name": "Clover", "slug": "atlassian-clover" },
+  { "name": "AppFuse", "slug": "appfuse" },
+  { "name": "Holograph Technologies", "slug": "holograph-technologies" },
+  { "name": "openBIS", "slug": "openbis" },
+  {
+    "name": "Subscriptions for Jira - Filter Manager",
+    "slug": "subscriptions-for-jira-filter-manager"
+  },
+  {
+    "name": "Team Calendars for Confluence",
+    "slug": "team-calendars-for-confluence"
+  },
+  { "name": "Teamlead Toolkit", "slug": "teamlead-toolkit" },
+  {
+    "name": "Universal Directories for Jira - Built-In Database",
+    "slug": "universal-directories-for-jira-built-in-database"
+  }
+]

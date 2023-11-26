@@ -1,0 +1,283 @@
+{
+    "data: // https://admin.atlassian.com/gateway/api/bbf/api/graphql": {
+        "ccp": {
+            "transactionAccount": {
+                "invoices": [
+                    {
+                        "createdAt": 1699849994000,
+                        "currency": "USD",
+                        "id": "8506adea-8059-474d-bcb3-5ab66882b621",
+                        "number": "IN-000-638-878",
+                        "sourceSystem": "CCP",
+                        "status": "PAID",
+                        "total": 2131.15,
+                        "dunningStatus": null,
+                        "paymentMethodObj": {
+                            "__typename": "CardPaymentMethod",
+                            "card": {
+                                "last4": "4669"
+                            }
+                        }
+                    },
+                    {
+                        "createdAt": 1697171595000,
+                        "currency": "USD",
+                        "id": "5bce6488-9151-4fdb-9c21-7ac1a23b1270",
+                        "number": "IN-000-559-022",
+                        "sourceSystem": "CCP",
+                        "status": "PAID",
+                        "total": 2115.18,
+                        "dunningStatus": null,
+                        "paymentMethodObj": {
+                            "__typename": "CardPaymentMethod",
+                            "card": {
+                                "last4": "4669"
+                            }
+                        }
+                    },
+                    {
+                        "createdAt": 1694579569000,
+                        "currency": "USD",
+                        "id": "00b379ed-4091-4009-b20d-7fb2d8d8e492",
+                        "number": "IN-000-485-965",
+                        "sourceSystem": "CCP",
+                        "status": "PAID",
+                        "total": 1950.62,
+                        "dunningStatus": null,
+                        "paymentMethodObj": {
+                            "__typename": "CardPaymentMethod",
+                            "card": {
+                                "last4": "4669"
+                            }
+                        }
+                    },
+                    {
+                        "createdAt": 1691901156000,
+                        "currency": "USD",
+                        "id": "9cc6af8d-e065-4377-88de-0e55f8b80551",
+                        "number": "IN-000-414-109",
+                        "sourceSystem": "CCP",
+                        "status": "PAID",
+                        "total": 1888.43,
+                        "dunningStatus": null,
+                        "paymentMethodObj": {
+                            "__typename": "CardPaymentMethod",
+                            "card": {
+                                "last4": "4669"
+                            }
+                        }
+                    },
+                    {
+                        "createdAt": 1691728355000,
+                        "currency": "USD",
+                        "id": "c503a713-2592-4063-a973-efc8c962fd32",
+                        "number": "IN-000-409-266",
+                        "sourceSystem": "CCP",
+                        "status": "PAID",
+                        "total": 15.37,
+                        "dunningStatus": null,
+                        "paymentMethodObj": {
+                            "__typename": "CardPaymentMethod",
+                            "card": {
+                                "last4": "4669"
+                            }
+                        }
+                    },
+                    {
+                        "createdAt": 1691641968000,
+                        "currency": "USD",
+                        "id": "1ece565a-a505-4bd5-9b89-26ebc06809fd",
+                        "number": "IN-000-406-831",
+                        "sourceSystem": "CCP",
+                        "status": "PAID",
+                        "total": 24.97,
+                        "dunningStatus": null,
+                        "paymentMethodObj": {
+                            "__typename": "CardPaymentMethod",
+                            "card": {
+                                "last4": "4669"
+                            }
+                        }
+                    },
+                    {
+                        "createdAt": 1689222777000,
+                        "currency": "USD",
+                        "id": "b5d3cc25-a618-480b-8729-adf64577af12",
+                        "number": "IN-000-343-136",
+                        "sourceSystem": "CCP",
+                        "status": "PAID",
+                        "total": 2029.15,
+                        "dunningStatus": null,
+                        "paymentMethodObj": {
+                            "__typename": "CardPaymentMethod",
+                            "card": {
+                                "last4": "4669"
+                            }
+                        }
+                    },
+                    {
+                        "createdAt": 1686631160000,
+                        "currency": "USD",
+                        "id": "c0f29d27-3669-451b-ad3a-391f6ef9d632",
+                        "number": "IN-000-274-292",
+                        "sourceSystem": "CCP",
+                        "status": "PAID",
+                        "total": 1917.21,
+                        "dunningStatus": {
+                            "__typename": "DunningStatus"
+                        },
+                        "paymentMethodObj": {
+                            "__typename": "CardPaymentMethod",
+                            "card": {
+                                "last4": "4669"
+                            }
+                        }
+                    },
+                    {
+                        "createdAt": 1683952399000,
+                        "currency": "USD",
+                        "id": "a85857d9-657b-44db-aeeb-f0b481cdd831",
+                        "number": "IN-000-214-395",
+                        "sourceSystem": "CCP",
+                        "status": "PAID",
+                        "total": 1952.39,
+                        "dunningStatus": null,
+                        "paymentMethodObj": {
+                            "__typename": "CardPaymentMethod",
+                            "card": {
+                                "last4": "5066"
+                            }
+                        }
+                    },
+                    {
+                        "createdAt": 1681360392000,
+                        "currency": "USD",
+                        "id": "e38e2cf8-d217-405e-b1dd-b0fcfa6d9736",
+                        "number": "IN-000-161-553",
+                        "sourceSystem": "CCP",
+                        "status": "PAID",
+                        "total": 2071.26,
+                        "dunningStatus": null,
+                        "paymentMethodObj": {
+                            "__typename": "CardPaymentMethod",
+                            "card": {
+                                "last4": "5066"
+                            }
+                        }
+                    },
+                    {
+                        "createdAt": 1678607146810,
+                        "currency": "USD",
+                        "id": "AT-229060163",
+                        "number": "AT-229060163",
+                        "sourceSystem": "HAMS",
+                        "status": "PAID",
+                        "total": 2019.75,
+                        "dunningStatus": null,
+                        "paymentMethodObj": null
+                    },
+                    {
+                        "createdAt": 1676192125273,
+                        "currency": "USD",
+                        "id": "AT-223069941",
+                        "number": "AT-223069941",
+                        "sourceSystem": "HAMS",
+                        "status": "PAID",
+                        "total": 1846.32,
+                        "dunningStatus": null,
+                        "paymentMethodObj": null
+                    },
+                    {
+                        "createdAt": 1673508135170,
+                        "currency": "USD",
+                        "id": "AT-217654497",
+                        "number": "AT-217654497",
+                        "sourceSystem": "HAMS",
+                        "status": "PAID",
+                        "total": 1667.75,
+                        "dunningStatus": null,
+                        "paymentMethodObj": null
+                    },
+                    {
+                        "createdAt": 1670828570537,
+                        "currency": "USD",
+                        "id": "AT-212739500",
+                        "number": "AT-212739500",
+                        "sourceSystem": "HAMS",
+                        "status": "PAID",
+                        "total": 1642.72,
+                        "dunningStatus": null,
+                        "paymentMethodObj": null
+                    },
+                    {
+                        "createdAt": 1668235318814,
+                        "currency": "USD",
+                        "id": "AT-208158680",
+                        "number": "AT-208158680",
+                        "sourceSystem": "HAMS",
+                        "status": "PAID",
+                        "total": 1502,
+                        "dunningStatus": null,
+                        "paymentMethodObj": null
+                    },
+                    {
+                        "createdAt": 1665556877217,
+                        "currency": "USD",
+                        "id": "AT-203980606",
+                        "number": "AT-203980606",
+                        "sourceSystem": "HAMS",
+                        "status": "PAID",
+                        "total": 1555.3,
+                        "dunningStatus": null,
+                        "paymentMethodObj": null
+                    },
+                    {
+                        "createdAt": 1662961136480,
+                        "currency": "USD",
+                        "id": "AT-199731032",
+                        "number": "AT-199731032",
+                        "sourceSystem": "HAMS",
+                        "status": "PAID",
+                        "total": 1614.99,
+                        "dunningStatus": null,
+                        "paymentMethodObj": null
+                    },
+                    {
+                        "createdAt": 1661164476894,
+                        "currency": "USD",
+                        "id": "AT-197118940",
+                        "number": "AT-197118940",
+                        "sourceSystem": "HAMS",
+                        "status": "PAID",
+                        "total": 74.62,
+                        "dunningStatus": null,
+                        "paymentMethodObj": null
+                    },
+                    {
+                        "createdAt": 1660287044186,
+                        "currency": "USD",
+                        "id": "AT-195757613",
+                        "number": "AT-195757613",
+                        "sourceSystem": "HAMS",
+                        "status": "PAID",
+                        "total": 1533.45,
+                        "dunningStatus": null,
+                        "paymentMethodObj": null
+                    },
+                    {
+                        "createdAt": 1657607108786,
+                        "currency": "USD",
+                        "id": "AT-191661394",
+                        "number": "AT-191661394",
+                        "sourceSystem": "HAMS",
+                        "status": "PAID",
+                        "total": 1493.63,
+                        "dunningStatus": null,
+                        "paymentMethodObj": null
+                    }
+                ],
+                "id": "ari:cloud:commerce::transaction-account/275505d4-c64d-4795-b7d3-1a18a91dfb58"
+            }
+        }
+    }
+}

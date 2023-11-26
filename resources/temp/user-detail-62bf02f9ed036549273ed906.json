@@ -1,0 +1,106 @@
+https://admin.atlassian.com/gateway/api/adminhub/um/site/52cf8bc5-2dd4-4219-9cf8-06d6ac1c8bed/users/62bf02f9ed036549273ed906/product-access
+
+
+[
+    {
+        "productName": "Jira Service Management",
+        "presence": "2023-11-21T17:29:20.975996173Z",
+        "presenceUnavailable": false,
+        "productId": "jira-servicedesk",
+        "accessLevel": "NONE"
+    },
+    {
+        "productName": "Jira Software",
+        "presence": "2023-11-21T17:29:20.975996173Z",
+        "presenceUnavailable": false,
+        "productId": "jira-software",
+        "accessLevel": "USE"
+    },
+    {
+        "productName": "Jira Product Discovery",
+        "presence": "2023-11-21T17:29:20.975996173Z",
+        "presenceUnavailable": false,
+        "productId": "jira-product-discovery",
+        "accessLevel": "NONE"
+    },
+    {
+        "productName": "Confluence",
+        "presence": "2023-11-21T17:18:19.807476498Z",
+        "presenceUnavailable": false,
+        "productId": "conf",
+        "accessLevel": "USE"
+    },
+    {
+        "productName": "Atlas",
+        "presence": null,
+        "presenceUnavailable": false,
+        "productId": "townsquare",
+        "accessLevel": "NONE"
+    },
+    {
+        "productName": "Jira",
+        "presence": "2023-11-21T17:29:20.975996173Z",
+        "presenceUnavailable": false,
+        "productId": "jira-admin",
+        "accessLevel": "NONE"
+    }
+]
+
+
+
+https://admin.atlassian.com/gateway/api/adminhub/um/site/52cf8bc5-2dd4-4219-9cf8-06d6ac1c8bed/users/62bf02f9ed036549273ed906/products
+
+
+[
+    {
+        "productId": "jira-servicedesk",
+        "workspaceName": "apty",
+        "hostName": "apty.atlassian.net",
+        "workspaceId": "52cf8bc5-2dd4-4219-9cf8-06d6ac1c8bed",
+        "roles": [
+            "product/helpseeker"
+        ],
+        "availableRoles": [
+            "product/member",
+            "product/helpseeker"
+        ],
+        "presence": "2023-11-21T17:29:20.975996173Z",
+        "presenceUnavailable": false,
+        "productAri": "ari:cloud:jira-servicedesk::site/52cf8bc5-2dd4-4219-9cf8-06d6ac1c8bed",
+        "productKey": "jira-servicedesk"
+    },
+    {
+        "productId": "jira-software",
+        "workspaceName": "apty",
+        "hostName": "apty.atlassian.net",
+        "workspaceId": "52cf8bc5-2dd4-4219-9cf8-06d6ac1c8bed",
+        "roles": [
+            "product/member"
+        ],
+        "availableRoles": [
+            "product/member"
+        ],
+        "presence": "2023-11-21T17:29:20.975996173Z",
+        "presenceUnavailable": false,
+        "productAri": "ari:cloud:jira-software::site/52cf8bc5-2dd4-4219-9cf8-06d6ac1c8bed",
+        "productKey": "jira-software"
+    },
+    {
+        "productId": "conf",
+        "workspaceName": "apty",
+        "hostName": "apty.atlassian.net",
+        "workspaceId": "52cf8bc5-2dd4-4219-9cf8-06d6ac1c8bed",
+        "roles": [
+            "product/member"
+        ],
+        "availableRoles": [
+            "product/member",
+            "product/admin",
+            "product/external-collaborator-writer"
+        ],
+        "presence": "2023-11-21T17:18:19.807476498Z",
+        "presenceUnavailable": false,
+        "productAri": "ari:cloud:confluence::site/52cf8bc5-2dd4-4219-9cf8-06d6ac1c8bed",
+        "productKey": "conf"
+    }
+]
