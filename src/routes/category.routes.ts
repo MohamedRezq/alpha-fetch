@@ -5,7 +5,7 @@ import { authMiddleware } from "../middleware/authentication.middleware";
 
 const router = express.Router();
 
-router.get("/", authMiddleware, categoryController.getAllCategories);
+router.get("/", categoryController.getAllCategories);
 router.get("/:id", categoryController.getCategoryById);
 router.post("/", categoryController.createCategory);
 router.post("/admin/multiple", categoryController.bulkCreateCategories);

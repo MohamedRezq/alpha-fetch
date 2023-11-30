@@ -5,7 +5,7 @@ import { authMiddleware } from "../middleware/authentication.middleware";
 
 const router = express.Router();
 
-router.get("/", authMiddleware, syncLogController.getAllSyncLogs);
+router.get("/", syncLogController.getAllSyncLogs);
 router.get("/:id", syncLogController.getSyncLogById);
 router.post("/", syncLogController.createSyncLog);
 router.post("/admin/multiple", syncLogController.bulkCreateSyncLogs);

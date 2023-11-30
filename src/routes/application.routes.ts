@@ -5,7 +5,7 @@ import { authMiddleware } from "../middleware/authentication.middleware";
 
 const router = express.Router();
 
-router.get("/", authMiddleware, applicationController.getAllApplications);
+router.get("/", applicationController.getAllApplications);
 router.get("/:id", applicationController.getApplicationById);
 router.post("/", applicationController.createApplication);
 router.post("/admin/multiple", applicationController.bulkCreateApplications);

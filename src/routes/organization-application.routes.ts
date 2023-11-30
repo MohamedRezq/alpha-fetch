@@ -7,7 +7,6 @@ const router = express.Router();
 
 router.get(
   "/",
-  authMiddleware,
   organizationApplicationController.getAllOrganizationApplications
 );
 router.get(
