@@ -23,8 +23,8 @@ export const authMiddleware = (
     const decodedBody = decoded as any;
 
     req.user = {
-      username: decodedBody?.username,
-      organization_id: decodedBody?.organization_id,
+      username: decodedBody?.email,
+      organization_id: decodedBody?.organization?.Id,
     };
 
     next();

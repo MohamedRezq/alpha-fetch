@@ -1,0 +1,295 @@
+[
+  {
+    "Table_Name": "User Licenses User Licenses Help",
+    "Data": [
+      {
+        "Name": "Salesforce Integration",
+        "Status": "Active",
+        "Total Licenses": "5",
+        "Used Licenses": "1",
+        "Remaining Licenses": "4",
+        "Expiration Date": ""
+      },
+      {
+        "Name": "Analytics Cloud Integration User",
+        "Status": "Active",
+        "Total Licenses": "2",
+        "Used Licenses": "0",
+        "Remaining Licenses": "2",
+        "Expiration Date": ""
+      },
+      {
+        "Name": "Salesforce",
+        "Status": "Active",
+        "Total Licenses": "64",
+        "Used Licenses": "62",
+        "Remaining Licenses": "2",
+        "Expiration Date": ""
+      },
+      {
+        "Name": "Chatter Free",
+        "Status": "Active",
+        "Total Licenses": "5,000",
+        "Used Licenses": "0",
+        "Remaining Licenses": "5,000",
+        "Expiration Date": ""
+      },
+      {
+        "Name": "Chatter External",
+        "Status": "Active",
+        "Total Licenses": "500",
+        "Used Licenses": "0",
+        "Remaining Licenses": "500",
+        "Expiration Date": ""
+      },
+      {
+        "Name": "Identity",
+        "Status": "Active",
+        "Total Licenses": "100",
+        "Used Licenses": "0",
+        "Remaining Licenses": "100",
+        "Expiration Date": ""
+      }
+    ]
+  },
+  {
+    "Table_Name": "Permission Set Licenses Permission Set Licenses Help",
+    "Data": [
+      {
+        "Name": "Code Builder",
+        "Status": "Active",
+        "Total Licenses": "40",
+        "Used Licenses": "0",
+        "Remaining Licenses": "40",
+        "Expiration Date": "",
+        "Enabled for Integrations": false
+      },
+      {
+        "Name": "CRM User",
+        "Status": "Active",
+        "Total Licenses": "3",
+        "Used Licenses": "0",
+        "Remaining Licenses": "3",
+        "Expiration Date": "",
+        "Enabled for Integrations": false
+      },
+      {
+        "Name": "Einstein Agent",
+        "Status": "Active",
+        "Total Licenses": "44",
+        "Used Licenses": "0",
+        "Remaining Licenses": "44",
+        "Expiration Date": "",
+        "Enabled for Integrations": false
+      },
+      {
+        "Name": "Einstein Agent CWU",
+        "Status": "Active",
+        "Total Licenses": "44",
+        "Used Licenses": "0",
+        "Remaining Licenses": "44",
+        "Expiration Date": "",
+        "Enabled for Integrations": false
+      },
+      {
+        "Name": "Einstein Search",
+        "Status": "Active",
+        "Total Licenses": "26",
+        "Used Licenses": "0",
+        "Remaining Licenses": "26",
+        "Expiration Date": "",
+        "Enabled for Integrations": false
+      },
+      {
+        "Name": "Field Service Dispatcher",
+        "Status": "Active",
+        "Total Licenses": "3",
+        "Used Licenses": "2",
+        "Remaining Licenses": "1",
+        "Expiration Date": "",
+        "Enabled for Integrations": false
+      },
+      {
+        "Name": "Field Service Guest User",
+        "Status": "Active",
+        "Total Licenses": "3,800",
+        "Used Licenses": "0",
+        "Remaining Licenses": "3,800",
+        "Expiration Date": "",
+        "Enabled for Integrations": false
+      },
+      {
+        "Name": "Field Service Mobile",
+        "Status": "Active",
+        "Total Licenses": "35",
+        "Used Licenses": "30",
+        "Remaining Licenses": "5",
+        "Expiration Date": "",
+        "Enabled for Integrations": false
+      },
+      {
+        "Name": "Field Service Scheduling",
+        "Status": "Active",
+        "Total Licenses": "35",
+        "Used Licenses": "30",
+        "Remaining Licenses": "5",
+        "Expiration Date": "",
+        "Enabled for Integrations": false
+      },
+      {
+        "Name": "Field Service Standard",
+        "Status": "Active",
+        "Total Licenses": "380,038",
+        "Used Licenses": "0",
+        "Remaining Licenses": "380,038",
+        "Expiration Date": "",
+        "Enabled for Integrations": false
+      }
+    ]
+  },
+  {
+    "Table_Name": "Feature Licenses Feature Licenses Help",
+    "Data": [
+      {
+        "Feature Type": "Flow User",
+        "Status": "Active",
+        "Total Licenses": "64",
+        "Used Licenses": "1",
+        "Remaining Licenses": "63"
+      },
+      {
+        "Feature Type": "Marketing User",
+        "Status": "Active",
+        "Total Licenses": "64",
+        "Used Licenses": "3",
+        "Remaining Licenses": "61"
+      },
+      {
+        "Feature Type": "Offline User",
+        "Status": "Active",
+        "Total Licenses": "64",
+        "Used Licenses": "0",
+        "Remaining Licenses": "64"
+      },
+      {
+        "Feature Type": "Service Cloud User",
+        "Status": "Active",
+        "Total Licenses": "9",
+        "Used Licenses": "2",
+        "Remaining Licenses": "7"
+      },
+      {
+        "Feature Type": "Salesforce CRM Content User",
+        "Status": "Active",
+        "Total Licenses": "64",
+        "Used Licenses": "0",
+        "Remaining Licenses": "64"
+      }
+    ]
+  },
+  {
+    "Table_Name": "Usage-based Entitlements Usage-based Entitlements Help",
+    "Data": [
+      {
+        "Resource": "Maximum Custom BigObjects Rows",
+        "Resource ID": "(tenant)",
+        "Start Date": "26/07/2017",
+        "End Date": "",
+        "Frequency": "Once",
+        "Allowance": "1,000,000",
+        "Amount Used": "0.00",
+        "Usage Date": "08/11/2022, 02:59"
+      },
+      {
+        "Resource": "Maximum Public Experience Page Views",
+        "Resource ID": "(tenant)",
+        "Start Date": "23/06/2017",
+        "End Date": "22/01/2022",
+        "Frequency": "Monthly",
+        "Allowance": "1,000,000",
+        "Amount Used": "",
+        "Usage Date": ""
+      },
+      {
+        "Resource": "Maximum Paused and Waiting Flow Interviews",
+        "Resource ID": "(tenant)",
+        "Start Date": "27/06/2018",
+        "End Date": "",
+        "Frequency": "Once",
+        "Allowance": "50,000",
+        "Amount Used": "",
+        "Usage Date": ""
+      },
+      {
+        "Resource": "Maximum Flow Interviews with UI per Month",
+        "Resource ID": "(tenant)",
+        "Start Date": "27/06/2018",
+        "End Date": "",
+        "Frequency": "Monthly",
+        "Allowance": "20,002,200",
+        "Amount Used": "1.00",
+        "Usage Date": "11/10/2022, 02:59"
+      },
+      {
+        "Resource": "Maximum Flow Interviews Without UI per Month",
+        "Resource ID": "(tenant)",
+        "Start Date": "27/06/2018",
+        "End Date": "",
+        "Frequency": "Monthly",
+        "Allowance": "10,000,000,000",
+        "Amount Used": "287,578.00",
+        "Usage Date": "08/11/2022, 02:59"
+      },
+      {
+        "Resource": "Maximum Billed Bot Conversations for Messaging",
+        "Resource ID": "(tenant)",
+        "Start Date": "14/07/2018",
+        "End Date": "03/09/2018",
+        "Frequency": "Monthly",
+        "Allowance": "100,000",
+        "Amount Used": "",
+        "Usage Date": ""
+      },
+      {
+        "Resource": "Maximum Billed Agent Conversations for Messaging",
+        "Resource ID": "(tenant)",
+        "Start Date": "14/07/2018",
+        "End Date": "03/09/2018",
+        "Frequency": "Monthly",
+        "Allowance": "100,000",
+        "Amount Used": "",
+        "Usage Date": ""
+      },
+      {
+        "Resource": "Maximum Total Conversations for Messaging",
+        "Resource ID": "(tenant)",
+        "Start Date": "14/07/2018",
+        "End Date": "22/01/2022",
+        "Frequency": "Once",
+        "Allowance": "10",
+        "Amount Used": "",
+        "Usage Date": ""
+      },
+      {
+        "Resource": "Maximum Billed Blast Conversations for Messaging",
+        "Resource ID": "(tenant)",
+        "Start Date": "14/07/2018",
+        "End Date": "03/09/2018",
+        "Frequency": "Once",
+        "Allowance": "100,000",
+        "Amount Used": "",
+        "Usage Date": ""
+      },
+      {
+        "Resource": "High-volume platform events and change events delivered per month to clients",
+        "Resource ID": "(tenant)",
+        "Start Date": "03/08/2018",
+        "End Date": "",
+        "Frequency": "Monthly",
+        "Allowance": "750,000",
+        "Amount Used": "",
+        "Usage Date": ""
+      }
+    ]
+  }
+]

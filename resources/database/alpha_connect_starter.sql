@@ -65,3 +65,5 @@ CREATE TABLE `categories` (
   `deleted_at` DATETIME DEFAULT NULL,
   PRIMARY KEY (`id`)
 );
+INSERT INTO `alpha_connect`.`categories` (`id`, `name`, `slug`, `parent_category_id`, `logo`, `data`) 
+VALUES (0, '-', '-', 0, '', '{"key":"value"}');
